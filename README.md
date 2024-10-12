@@ -1,4 +1,3 @@
----
 
 **Blockchain Price Tracker** is a NestJS-based application that monitors the prices of Ethereum and Polygon tokens. The app automatically sends email alerts when there are significant price changes and provides APIs for retrieving real-time price data and setting up custom alerts.
 
