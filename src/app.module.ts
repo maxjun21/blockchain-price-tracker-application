@@ -1,4 +1,3 @@
-// src/app.module.ts
 import { Module } from '@nestjs/common';
 import { PriceModule } from './api/v1/price/price.module';
 import { AlertModule } from './api/v1/alert/alert.module';

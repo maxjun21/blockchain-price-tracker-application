@@ -7,7 +7,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { Price } from './schema/price.entity';
 import { AlertService } from '../alert/alert.service';
-import config from './../../../config/configuration'; // Import your configuration
+import config from './../../../config/configuration';
 import { MailerService } from 'src/utils/mailer/mailer.service';
 
 @Injectable()
