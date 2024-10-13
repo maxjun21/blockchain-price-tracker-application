@@ -47,7 +47,7 @@ export class PriceService {
     }
   }
 
-  @Cron('*/1 * * * *')
+  @Cron('*/5 * * * *')
   async savePricesEvery5Minutes() {
     const ethereumPrice = await this.fetchTokenPrice(
       this.ethereumConfig.chainId,
